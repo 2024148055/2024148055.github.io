@@ -32,14 +32,36 @@ Also, I enjoy the problem-solving process. And I value learning with great peers
 ## Projects
 
 <style>
-.proj-table { width:100%; border-collapse:separate; border-spacing:0 16px; }
-.proj-table td { vertical-align: middle; padding: 20px 18px; font-size: 1.08rem; line-height: 1.7; }
-.proj-img { width: 460px; max-width: 100%; height: auto; border-radius: 8px; display:block; margin-left:auto; }
-@media (max-width: 760px) {
-  .proj-table, .proj-table tr, .proj-table td { display:block; width:100%; }
-  .proj-img { margin: 8px 0 0 0; }
-}
+.proj{display:grid;grid-template-columns:1fr 560px;gap:1.25rem;align-items:center;margin:1.25rem 0;padding:1rem;border:1px solid #e5e7eb;border-radius:12px;background:#fff}
+.proj .txt{font-size:1.08rem;line-height:1.75}
+.proj h3{margin:0 0 .25rem 0}
+.proj .meta{font-size:.95rem;color:#6b7280;margin:.25rem 0 .75rem 0}
+.proj .img img{width:100%;height:auto;display:block;border-radius:10px;object-fit:cover}
+@media (max-width: 820px){.proj{grid-template-columns:1fr}.proj .img{order:2}}
 </style>
+
+<div class="proj">
+  <div class="txt">
+    <h3>Where2Meet (2025)</h3>
+    <p class="meta">Web app · Node.js · Express · MySQL · Google Maps API</p>
+    <p>A simple web app that helps groups choose a time and place that feels fair to everyone. It collects each member’s availability and rough location, suggests overlapping time windows, and surfaces accessible meeting spots on a map. I focused on the map experience and the flow between the front end and server so that data moved cleanly and recommendations appeared where people expected them.</p>
+  </div>
+  <div class="img">
+    <img src="/images/where2meet3.png" alt="Where2Meet map and suggested places">
+  </div>
+</div>
+
+<div class="proj">
+  <div class="txt">
+    <h3>Genetic Disorder Simulation (2022)</h3>
+    <p class="meta">Rule-based simulation · Python (plots)</p>
+    <p>I built a rule-based simulation to explore a simple question: how can a lethal dominant disorder persist in a population? Starting from a synthetic population annotated with age, sex, and genotype, the model advances in five-year steps (pairing, births, deaths) and sweeps mortality and fertility weights to examine prevalence changes. Across runs, higher mortality suppressed spread while higher fertility amplified it; under some settings the trait persisted or even grew. The project has clear limits—simplified assumptions and spaghetti code from my high-school days—but it sparked my curiosity and taught me grit through repeated iteration and debugging.</p>
+  </div>
+  <div class="img">
+    <img src="/images/simul.png" alt="Heatmap showing prevalence under mortality/fertility sweeps">
+  </div>
+</div>
+
 
 | |                                                                                 |
 |---|---------------------------------------------------------------------------------|
