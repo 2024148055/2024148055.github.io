@@ -34,7 +34,7 @@ Also, I enjoy the problem-solving process. And I value learning with great peers
 <style>
 .proj{
   display:grid;
-  grid-template-columns: 60% 40%; /* ← text 60% | image 40% */
+  grid-template-columns: 60% 40%; /* text 60% | image 40% */
   gap:1.25rem;
   align-items:center;
   margin:1.25rem 0;
@@ -43,15 +43,16 @@ Also, I enjoy the problem-solving process. And I value learning with great peers
   border-radius:12px;
   background:#fff;
 }
-.proj .txt{font-size:1.08rem;line-height:1.7}
+.proj .txt{line-height:1.7}
+.proj .txt p{font-size:1.0rem; line-height:1.65;} /* ↓ 본문만 살짝 축소 */
 .proj h3{margin:0 0 .25rem 0}
 .proj .meta{font-size:.95rem;color:#6b7280;margin:.25rem 0 .75rem 0}
 .proj .img img{
   width:100%;
-  height:auto;              /* keep aspect ratio */
+  height:auto;
   display:block;
   border-radius:10px;
-  object-fit:cover;         /* fill its 40% cell nicely */
+  object-fit:cover;
 }
 @media (max-width: 820px){
   .proj{grid-template-columns: 1fr}
@@ -66,7 +67,7 @@ Also, I enjoy the problem-solving process. And I value learning with great peers
     <p>A simple web app that helps groups choose a time and place that feels fair to everyone. It collects each member’s availability and rough location, suggests overlapping time windows, and surfaces accessible meeting spots on a map. I focused on the map experience and the flow between the front end and server so that data moved cleanly and recommendations appeared where people expected them.</p>
   </div>
   <div class="img">
-    <img src="/images/where2meet2.png" alt="Where2Meet map and suggested places">
+    <img src="/images/where2meet3.png" alt="Where2Meet map and suggested places">
   </div>
 </div>
 
