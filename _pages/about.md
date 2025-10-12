@@ -21,8 +21,10 @@ I’m interested in creating immersive interaction—using **AI** to make human-
 Also, I enjoy the problem-solving process. And I value learning with great peers through programming contests and study groups too.
 
 ## Education
-**Yonsei University**, Seoul, South Korea — **B.S. in Computer Science**  
-GPA **3.86/4.3**, **Mar 2023 – Present**  :contentReference[oaicite:0]{index=0}
+
+| Degree | Institution | Period | Details |
+|---|---|---|---|
+| B.S. in Computer Science | Yonsei University, Seoul, South Korea | Mar 2023 – Present | GPA **3.86/4.3**<br>Relevant Coursework: Data Structures, Internet Programming, Object-Oriented Programming |
 
 **Relevant Coursework:** Data Structures, Internet Programming, Object-Oriented Programming.  :contentReference[oaicite:1]{index=1}
 
