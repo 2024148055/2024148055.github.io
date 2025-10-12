@@ -54,6 +54,8 @@ Also, I enjoy the problem-solving process. And I value learning with great peers
   border-radius:10px;
   object-fit:cover;
 }
+.proj.noimg{grid-template-columns:1fr}
+.proj.noimg .img{display:none}
 @media (max-width: 820px){
   .proj{grid-template-columns: 1fr}
   .proj .img{order:2}
@@ -82,6 +84,76 @@ Also, I enjoy the problem-solving process. And I value learning with great peers
   </div>
 </div>
 
+<div class="proj noimg">
+  <div class="txt">
+    <h3>2D Character Movement & Animation (Year)</h3>
+    <p class="meta">Game mechanics · Sprite sheet · State machine</p>
+    <p>Implemented basic character control and animation using a sprite-sheet pipeline. Built a small finite-state machine (idle → walk → run → jump/land) with input-driven transitions, per-state frame timing, and sprite flipping on direction changes. Movement used delta-time updates for consistent speed, and a simple ground/collision check to keep motion stable. The focus was on stitching art assets into a responsive feel—tight input, smooth frame sequencing, and clean separation between update and render loops.</p>
+  </div>
+  <div class="img"></div>
+</div>
+
+## Activities
+
+<style>
+.xtra{
+  display:grid;
+  grid-template-columns: 60% 40%; /* text | image */
+  gap:1rem;
+  align-items:center;
+  margin:1rem 0;
+  padding:.75rem;                 /* ↓ 세로 높이 살짝 축소 */
+  border:1px solid #e5e7eb;
+  border-radius:12px;
+  background:#fff;
+}
+.xtra .txt{line-height:1.6}
+.xtra .txt p{font-size:.98rem; line-height:1.6; margin:0}
+.xtra h3{margin:0 0 .25rem 0}
+.xtra .meta{font-size:.9rem;color:#6b7280;margin:.25rem 0 .5rem 0}
+.xtra .img img{
+  width:100%;
+  height:auto;                   /* 비율 유지 */
+  display:block;
+  border-radius:10px;
+  object-fit:cover;
+}
+.xtra.noimg{grid-template-columns:1fr} /* 이미지 없는 블럭 */
+.xtra.noimg .img{display:none}
+@media (max-width: 820px){
+  .xtra{grid-template-columns:1fr}
+  .xtra .img{order:2}
+}
+</style>
+
+<div class="xtra">
+  <div class="txt">
+    <h3>Algorithmic Practice — Morigorism Club (2024– )</h3>
+    <p>Ongoing problem solving with a study group; ~250 problems across Baekjoon/Codeforces, focusing on graphs, DP, greedy, and clean implementation.</p>
+  </div>
+  <div class="img">
+    <img src="/images/solved%20ac.png" alt="Baekjoon profile/statistics screenshot">
+  </div>
+</div>
+
+<div class="xtra noimg">
+  <div class="txt">
+    <h3>Programming Contests</h3>
+    <p>Participated in collegiate contests including <strong>ICPC Seoul Regional 2024/2025</strong>, <strong>SUAPC 2025</strong>. </p>
+  </div>
+  <div class="img"></div>
+</div>
+
+
+<div class="xtra">
+  <div class="txt">
+    <h3>Teaching — ProTeen Club (Jul–Dec 2024)</h3>
+    <p>Mentored elementary students using Entry (block-based) to make small games/animations; learned to scaffold concepts and keep momentum with bite-sized milestones.</p>
+  </div>
+  <div class="img">
+    <img src="/images/proteen.png" alt="Mentoring at ProTeen Club">
+  </div>
+</div>
 
 
 A data-driven personal website
