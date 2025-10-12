@@ -18,7 +18,7 @@ Growing up, games were my main way to connect with people. That experience, comb
 I’m interested in creating immersive interaction—using **AI** to make human-computer interaction feel more natural and lifelike. While I’m early on hands-on experience, I’m building foundations through coursework (e.g., deep neural networks and related topics).
 
 
-Also, I enjoy the problem-solving process. And I value learning with great peers through programming contests and study groups too.
+Also, I enjoy algorithmic problem solving and thrive learning with peers in contests and study groups.
 
 ## Education
 
@@ -86,7 +86,7 @@ Also, I enjoy the problem-solving process. And I value learning with great peers
 
 <div class="proj noimg">
   <div class="txt">
-    <h3>2D Character Movement & Animation (Year)</h3>
+    <h3>2D Character Movement & Animation (2021)</h3>
     <p class="meta">Game mechanics · Sprite sheet · State machine</p>
     <p>Implemented basic character control and animation using a sprite-sheet pipeline. Built a small finite-state machine (idle → walk → run → jump/land) with input-driven transitions, per-state frame timing, and sprite flipping on direction changes. Movement used delta-time updates for consistent speed, and a simple ground/collision check to keep motion stable. The focus was on stitching art assets into a responsive feel—tight input, smooth frame sequencing, and clean separation between update and render loops.</p>
   </div>
@@ -152,6 +152,58 @@ Also, I enjoy the problem-solving process. And I value learning with great peers
   </div>
   <div class="img">
     <img src="/images/proteen.png" alt="Mentoring at ProTeen Club">
+  </div>
+</div>
+
+## Skills & Abilities
+
+<style>
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:8px 0}
+.skill-card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:12px 14px}
+.skill-card h4{margin:0 0 .5rem 0}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem}
+.chips span{display:inline-block;padding:.28rem .6rem;border:1px solid #e5e7eb;border-radius:999px;background:#f9fafb;font-size:.95rem}
+.note{color:#6b7280;font-size:.92rem;margin-top:.5rem}
+@media (max-width: 900px){.skills{grid-template-columns:1fr}}
+</style>
+
+<div class="skills">
+  <div class="skill-card">
+    <h4>Programming</h4>
+    <div class="chips">
+      <span>C++</span>
+      <span>Java</span>
+      <span>Python</span>
+      <span>JavaScript</span>
+      <span>HTML</span>
+      <span>CSS</span>
+    </div>
+    <div class="note">Core patterns: data structures, algorithms, problem solving</div>
+  </div>
+
+  <div class="skill-card">
+    <h4>Tools & Frameworks</h4>
+    <div class="chips">
+      <span>Node.js</span>
+      <span>Express</span>
+      <span>MySQL</span>
+      <span>Google Maps API</span>
+      <span>pandas</span>
+      <span>matplotlib</span>
+      <span>scikit-learn</span>
+      <span>Git</span>
+      <span>Linux</span>
+    </div>
+    <div class="note">Used across projects like Where2Meet and data-analysis notebooks</div>
+  </div>
+
+  <div class="skill-card">
+    <h4>Languages</h4>
+    <div class="chips">
+      <span>Korean — Native</span>
+      <span>English — TOEIC 915</span>
+    </div>
+    <div class="note">Comfortable with technical writing & presentations in English</div>
   </div>
 </div>
 
