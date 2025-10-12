@@ -1,15 +1,24 @@
 ---
 permalink: /
-title: "About Me"
+title: "Hello, I'm Jaehyeong Cho!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+## Who I am
+I’m a CS undergraduate at **Yonsei University** in Seoul, aiming for **game development** with a strong interest in **algorithms**.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+## Why this path
+Growing up, games were my main way to connect with people. That experience, combined with my love for math and logic, shaped my goal: to build programs that bring people together or help them share meaningful fun.
+
+## Interests #1 — Game Development & AI-enhanced HCI
+I’m interested in creating immersive interaction—using **AI** to make human-computer interaction feel more natural and lifelike. While I’m early on hands-on experience, I’m building foundations through coursework (e.g., deep neural networks and related topics).
+
+## Interests #2 — Problem Solving (PS)
+I enjoy the problem-solving process itself, and I value learning with great peers through programming contests and study groups.
+
 
 A data-driven personal website
 ======

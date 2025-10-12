@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Jaehyeong Cho"
+title                    : "JH homepage"
 title_separator          : "-"
 name                     : &name "Jaehyeong Cho"
 description              : &description "my academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "Jaehyeong Cho profile.jpg"
   name             : "JaeHyeong Cho"
-  pronouns         : "he/him"
+  pronouns         : #
   bio              : "Aspiring game developer with a strong interest in algorithms and systems"
   location         : "Seoul"
   employer         : "Yonsei University"
