@@ -158,53 +158,20 @@ Also, I enjoy algorithmic problem solving and thrive learning with peers in cont
 ## Skills & Abilities
 
 <style>
-.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:8px 0}
-.skill-card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:12px 14px}
-.skill-card h4{margin:0 0 .5rem 0}
-.chips{display:flex;flex-wrap:wrap;gap:.4rem}
-.chips span{display:inline-block;padding:.28rem .6rem;border:1px solid #e5e7eb;border-radius:999px;background:#f9fafb;font-size:.95rem}
-.note{color:#6b7280;font-size:.92rem;margin-top:.5rem}
-@media (max-width: 900px){.skills{grid-template-columns:1fr}}
+.meters{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.meter{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:10px 12px}
+.meter label{display:block;font-weight:600;margin-bottom:6px}
+.meter meter{width:100%;height:14px}
+@media (max-width:820px){.meters{grid-template-columns:1fr}}
 </style>
 
-<div class="skills">
-  <div class="skill-card">
-    <h4>Programming</h4>
-    <div class="chips">
-      <span>C++</span>
-      <span>Java</span>
-      <span>Python</span>
-      <span>JavaScript</span>
-      <span>HTML</span>
-      <span>CSS</span>
-    </div>
-    <div class="note">Core patterns: data structures, algorithms, problem solving</div>
-  </div>
-
-  <div class="skill-card">
-    <h4>Tools & Frameworks</h4>
-    <div class="chips">
-      <span>Node.js</span>
-      <span>Express</span>
-      <span>MySQL</span>
-      <span>Google Maps API</span>
-      <span>pandas</span>
-      <span>matplotlib</span>
-      <span>scikit-learn</span>
-      <span>Git</span>
-      <span>Linux</span>
-    </div>
-    <div class="note">Used across projects like Where2Meet and data-analysis notebooks</div>
-  </div>
-
-  <div class="skill-card">
-    <h4>Languages</h4>
-    <div class="chips">
-      <span>Korean — Native</span>
-      <span>English — TOEIC 915</span>
-    </div>
-    <div class="note">Comfortable with technical writing & presentations in English</div>
-  </div>
+<div class="meters">
+  <div class="meter"><label>C++</label><meter min="0" max="5" value="4"></meter></div>
+  <div class="meter"><label>Python</label><meter min="0" max="5" value="4"></meter></div>
+  <div class="meter"><label>Java</label><meter min="0" max="5" value="2"></meter></div>
+  <div class="meter"><label>HTML / CSS / JS</label><meter min="0" max="5" value="3"></meter></div>
+  <div class="meter"><label>Korean (Native)</label><meter min="0" max="5" value="5"></meter></div>
+  <div class="meter"><label>English </label><meter min="0" max="5" value="4"></meter></div>
 </div>
 
 
