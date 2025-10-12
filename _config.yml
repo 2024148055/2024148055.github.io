@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "About Me"
+title                    : "Jaehyeong Cho"
 title_separator          : "-"
 name                     : &name "Jaehyeong Cho"
 description              : &description "my academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -147,7 +147,10 @@ og_description           :  # Social media default site image description
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:ysitcho@yonsei.ac.kr"
 
 
 # Analytics
