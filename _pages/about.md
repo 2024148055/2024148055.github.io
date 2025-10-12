@@ -22,11 +22,23 @@ Also, I enjoy the problem-solving process. And I value learning with great peers
 
 ## Education
 
-| Degree | Institution | Period | Details |
-|---|---|---|---|
-| B.S. in Computer Science | Yonsei University, Seoul, South Korea | Mar 2023 – Present | GPA **3.86/4.3**<br>Relevant Coursework: Data Structures, Internet Programming, Object-Oriented Programming |
+| Degree | Institution | Period | Details          |
+|---|---|---|------------------|
+| B.S. in Computer Science | Yonsei University, Seoul, South Korea | Mar 2023 – Present | GPA **3.86/4.3** |
 
-**Relevant Coursework:** Data Structures, Internet Programming, Object-Oriented Programming.  :contentReference[oaicite:1]{index=1}
+**Relevant Coursework:** Data Structures, Internet Programming, Object-Oriented Programming
+
+## Projects
+
+### Where2Meet (2025)
+![Recommended spots near centroid](/images/where2meet3.png){: .align-right width="340" }
+A simple web app that helps groups choose a time and place that feels fair to everyone. It collects each member’s availability and rough location, suggests overlapping time windows, and surfaces accessible meeting spots on a map. I focused on the map experience and the flow between the front end and server so that data moved cleanly and recommendations appeared where people expected them.
+
+### Genetic Disorder Simulation (2022)
+![Prevalence by death/birth weights (heatmap)](/images/simul.png){: width="520" }
+I built a rule-based simulation to explore a simple question: how can a lethal dominant disorder persist in a population? Starting from a synthetic population annotated with age, sex, and genotype, the model advances in five-year steps (pairing, births, deaths) and sweeps mortality and fertility weights to examine prevalence changes. Across runs, higher mortality suppressed spread while higher fertility amplified it; under some settings the trait persisted or even grew. The project has clear limits—simplified assumptions and spaghetti code from my high-school days—but it sparked my curiosity and taught me grit through repeated iteration and debugging.
+
+
 
 A data-driven personal website
 ======
