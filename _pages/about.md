@@ -28,16 +28,24 @@ Also, I enjoy the problem-solving process. And I value learning with great peers
 
 **Relevant Coursework:** Data Structures, Internet Programming, Object-Oriented Programming
 
-## Projects
 
 ## Projects
 
-| | |
-|---|---|
-| **Where2Meet (2025)** — A simple web app that helps groups choose a time and place that feels fair to everyone. It collects each member’s availability and rough location, suggests overlapping time windows, and surfaces accessible meeting spots on a map. I focused on the map experience and the flow between the front end and server so that data moved cleanly and recommendations appeared where people expected them. <br><br> *Tech:* Node.js · Express · MySQL · Google Maps API | ![Where2Meet map and suggested places](/images/where2meet2.png){: width="320" } |
-| **Genetic Disorder Simulation (2022)** — I built a rule-based simulation to explore a simple question: how can a lethal dominant disorder persist in a population? Starting from a synthetic population annotated with age, sex, and genotype, the model advances in five-year steps (pairing, births, deaths) and sweeps mortality and fertility weights to examine prevalence changes. Across runs, higher mortality suppressed spread while higher fertility amplified it; under some settings the trait persisted or even grew. The project has clear limits—simplified assumptions and spaghetti code from my high-school days—but it sparked my curiosity and taught me grit through repeated iteration and debugging. | ![Prevalence under mortality/fertility sweeps](/images/simul.png){: width="320" } |
+<style>
+.proj-table { width:100%; border-collapse:separate; border-spacing:0 16px; }
+.proj-table td { vertical-align: middle; padding: 20px 18px; font-size: 1.08rem; line-height: 1.7; }
+.proj-img { width: 460px; max-width: 100%; height: auto; border-radius: 8px; display:block; margin-left:auto; }
+@media (max-width: 760px) {
+  .proj-table, .proj-table tr, .proj-table td { display:block; width:100%; }
+  .proj-img { margin: 8px 0 0 0; }
+}
+</style>
 
-
+| |                                                                                 |
+|---|---------------------------------------------------------------------------------|
+| **Where2Meet (2025)** — A simple web app that helps groups choose a time and place that feels fair to everyone. It collects each member’s availability and rough location, suggests overlapping time windows, and surfaces accessible meeting spots on a map. I focused on the map experience and the flow between the front end and server so that data moved cleanly and recommendations appeared where people expected them. | ![Where2Meet map and suggested places](/images/where2meet3.png){: .proj-img }   |
+| **Genetic Disorder Simulation (2022)** — I built a rule-based simulation to explore a simple question: how can a lethal dominant disorder persist in a population? Starting from a synthetic population annotated with age, sex, and genotype, the model advances in five-year steps (pairing, births, deaths) and sweeps mortality and fertility weights to examine prevalence changes. Across runs, higher mortality suppressed spread while higher fertility amplified it; under some settings the trait persisted or even grew. The project has clear limits—simplified assumptions and spaghetti code from my high-school days—but it sparked my curiosity and taught me grit through repeated iteration and debugging. | ![Prevalence under mortality/fertility sweeps](/images/simul.png){: .proj-img } |
+{: .proj-table}
 
 
 A data-driven personal website
