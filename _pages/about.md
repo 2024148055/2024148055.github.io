@@ -7,18 +7,18 @@ redirect_from:
   - /about.html
 ---
 
-## Who I am
+![AI-enhanced HCI concept](/images/my%20dream.png){: .align-right width="320" }
+
 I’m a CS undergraduate at **Yonsei University** in Seoul, aiming for **game development** with a strong interest in **algorithms**.
 
-## Why this path
+
 Growing up, games were my main way to connect with people. That experience, combined with my love for math and logic, shaped my goal: to build programs that bring people together or help them share meaningful fun.
 
-## Interests #1 — Game Development & AI-enhanced HCI
+
 I’m interested in creating immersive interaction—using **AI** to make human-computer interaction feel more natural and lifelike. While I’m early on hands-on experience, I’m building foundations through coursework (e.g., deep neural networks and related topics).
 
-## Interests #2 — Problem Solving (PS)
-I enjoy the problem-solving process itself, and I value learning with great peers through programming contests and study groups.
 
+I enjoy the problem-solving process itself, and I value learning with great peers through programming contests and study groups.
 
 A data-driven personal website
 ======
